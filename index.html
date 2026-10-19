@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xinyi He (何昕翼), Northwestern Polytechnical University. Personal homepage and contact information.">
+  <title>Xinyi He · 何昕翼</title>
+  <style>
+    :root { color-scheme: light; --ink: #202b38; --muted: #596773; --blue: #175c8b; --line: #dce4e9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fafbfc; color: var(--ink); font: 17px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    main { max-width: 800px; margin: 0 auto; padding: 88px 32px 48px; }
+    header { border-top: 4px solid var(--blue); padding-top: 29px; padding-bottom: 32px; border-bottom: 1px solid var(--line); }
+    h1 { margin: 0 0 12px; font-size: clamp(34px, 6vw, 48px); line-height: 1.25; letter-spacing: -.035em; font-weight: 650; }
+    .chinese { display: inline-block; margin-left: 16px; font-size: .57em; font-weight: 400; letter-spacing: .04em; color: var(--muted); vertical-align: middle; }
+    .affiliation { margin: 0; font-size: 19px; }
+    .affiliation-zh { margin: 2px 0 0; color: var(--muted); font-size: 16px; }
+    section { padding-top: 30px; }
+    h2 { margin: 0 0 14px; font-size: 15px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 650; }
+    p { margin: 0 0 12px; }
+    a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 4px; overflow-wrap: anywhere; }
+    a:hover { color: #0a3857; }
+    a:focus-visible { outline: 2px solid var(--blue); outline-offset: 5px; border-radius: 2px; }
+    dl { margin: 0; }
+    .contact-row { display: grid; grid-template-columns: 132px 1fr; gap: 14px; margin-bottom: 9px; }
+    dt { color: var(--muted); }
+    dd { margin: 0; }
+    .interests { display: flex; flex-wrap: wrap; gap: 8px 12px; margin: 0; padding: 0; list-style: none; }
+    .interests li { padding: 5px 12px; border: 1px solid var(--line); border-radius: 4px; font-size: 15px; background: #fff; }
+    footer { margin-top: 52px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+    @media (max-width: 520px) { main { padding: 40px 22px 32px; } .chinese { margin-left: 8px; } .contact-row { grid-template-columns: 1fr; gap: 0; margin-bottom: 16px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Xinyi He <span class="chinese" lang="zh-CN">何昕翼</span></h1>
+      <p class="affiliation">Northwestern Polytechnical University</p>
+      <p class="affiliation-zh" lang="zh-CN">西北工业大学</p>
+    </header>
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <dl>
+        <div class="contact-row"><dt>University email</dt><dd><a href="mailto:hexy@mail.nwpu.edu.cn">hexy@mail.nwpu.edu.cn</a></dd></div>
+        <div class="contact-row"><dt>Personal email</dt><dd><a href="mailto:hxy051107@gmail.com">hxy051107@gmail.com</a></dd></div>
+        <div class="contact-row"><dt>GitHub</dt><dd><a href="https://github.com/RickSanchezC5163">github.com/RickSanchezC5163</a></dd></div>
+      </dl>
+    </section>
+    <section aria-labelledby="research-heading">
+      <h2 id="research-heading">Research interests</h2>
+      <ul class="interests"><li>Computer vision</li><li>Monocular depth estimation</li><li>Temporal robustness</li></ul>
+    </section>
+    <footer>Personal homepage · Xinyi He</footer>
+  </main>
+</body>
+</html>
